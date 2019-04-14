@@ -1,0 +1,137 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+.winner h1
+{
+
+	color:green;
+
+}
+
+.container
+{
+	height:100vh;
+	background-image:url(../images/backgound.jpeg);
+	background-size:cover;
+	background-attachment:fixed;
+	padding-top:3%;
+}
+
+.div1
+{
+	width:60%;
+	height:550px;
+	background-color:white;
+	margin-left:20%;
+	margin-right:20%;
+
+}
+
+
+.player1
+{
+	width:50%;
+	height:100%;
+	
+	padding-top:20px;
+	float:left;
+	z-index:2;
+}
+
+.active
+{
+	background-color:lightgrey;
+}
+
+.player1_name
+{
+	text-align:center;
+	
+}
+
+.player1_score
+{
+	text-align:center;
+	margin-top:20px;
+	font-size:50px;
+	
+}
+
+.roll
+{
+	text-align:right;
+}
+
+
+
+.player2
+{
+	width:50%;
+	height:100%;
+	padding-top:20px;
+	float:left;
+	z-index:2;
+}
+
+.player2_name
+{
+	text-align:center;
+	
+}
+
+.player2_score
+{
+	text-align:center;
+	margin-top:20px;
+	font-size:50px;
+	
+}
+
+.current_score
+{
+	width:100px;
+	height:100px;
+	background-color:red;
+	text-align:center;
+	margin:25% 36%;
+	font-size:60px;
+	padding-top:4%;
+
+}
+
+.common
+{
+	width:10%;
+	float:left;
+}
+
+.sign
+{
+	color:darkred;
+}
+
+.roll1
+{
+	text-align:left;
+	letter-spacing:2px;
+}
+
+.dice
+{
+	height:100px;
+	width:100px;
+	z-index:5;
+	position:absolute;
+	margin:12% 26%;
+}
+
+.btn:hover
+{
+	cursor:pointer;
+
+}

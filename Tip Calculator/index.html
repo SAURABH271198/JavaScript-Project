@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tip Calculator</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="CSS/cal.css">
+</head>
+<body>
+<div class="container-fluid con">
+<div class="row row1">
+	
+<div class="col-sm-3"></div>
+<!-- first col-sm-3 inside row1 close -->
+<div class="col-sm-6">
+<div class="jumbotron">
+  <p class="text-center lead text">Tip Calculator</p>
+  <form action="" method="">
+  	
+  	<div class="form-group">
+  		<label for="bill">Bill</label>
+  		<input type="text" name="bill" id="bill" placeholder="Enter Bill Amount" class="form-control" autocomplete="off">
+  	</div>
+  	<!-- form group for bill close -->
+
+	<div class="form-group">
+  		<label for="tip">Tip</label>
+  		<input type="text" name="tip" id="tip" class="form-control" readonly>
+  	</div>
+  	<!-- form group for bill close -->
+
+  	<div class="form-group">
+  		<label for="person text">No Of Person Sharing</label>
+  		<input type="text" name="person" id="person" class="form-control" placeholder="Enter No Of Person Sharing">
+  	</div>
+  	<!-- form group for No Of Person Sharing -->
+
+  	<div class="form-group">
+  		<label for="finalBill">Final Bill to Per Person</label>
+  		<input type="text" name="finalbill" id="final_bill" class="form-control" readonly>
+  	</div>
+  	<!-- form group for No Of Person Sharing -->
+
+  	<div class="form-group">
+  		<p class="btn btn-primary" id="cal">Calculate</p>
+  	</div>
+  	<!-- form group for button close -->
+
+  </form>
+  <!-- form close -->
+</div>
+<!-- jumbotron close inside col-sm-6 -->
+</div>
+<!-- first col-sm-6 inside row1 close -->
+<div class="col-sm-3"></div>
+<!-- second col-sm-3 inside row1 close -->
+</div>
+<!-- row1 close	 -->
+
+
+</div>
+<!-- container fluid close -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="JS/tip.js"></script>
+
+</body>
+</html>

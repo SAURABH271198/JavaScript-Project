@@ -1,0 +1,20 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+.todo
+{
+    height:600px;
+    border:5px solid blueviolet;
+    border-radius:10px;
+}
+input[type=checkbox] {
+    zoom: 1.5;
+}
+
+.label
+{
+    font-size:25px;
+
+}

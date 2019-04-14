@@ -1,0 +1,43 @@
+*
+{
+	box-sizing:border-box;
+}
+.failure
+{
+	color:red;
+	font-weight:bolder;
+}
+form
+{
+
+	padding:25px;
+	border-radius:15px;
+
+}
+
+.con
+{
+	background-image:url(../images/background.jpg);
+	background-attachment:fixed;
+}
+h1
+{
+	font-family: 'Noto Serif SC', serif;
+}
+
+button	
+{
+	font-family: 'PT Serif', serif;
+}
+
+.green
+{
+	font-weight:bolder;
+	font-size:20px
+}
+
+.red
+{
+	font-weight:bolder;
+	font-size:20px
+}

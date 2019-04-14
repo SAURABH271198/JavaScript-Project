@@ -1,0 +1,23 @@
+*
+{
+	box-sizing:border-box;
+}
+
+.jumbotron
+{
+	margin-top:100px;
+	padding-top:20px;
+	background-color:red;
+}
+
+.form-control
+{
+	width:250px;
+}
+
+.text
+{
+	font-weight:bolder;
+	font-size:40px;
+	font-family: 'Roboto Slab', serif;
+}

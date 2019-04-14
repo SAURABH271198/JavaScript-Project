@@ -1,0 +1,29 @@
+.btn
+{
+	width:100px;
+}
+.btn1
+{
+	width:250px;
+}
+.table tr td
+{
+	border:none;
+}
+
+
+.form-control
+{
+	height:80px;
+}
+@media(max-width:560px)
+{
+	.btn
+	{
+		width:70px;
+	}
+	.btn1
+{
+	width:150px;
+}
+}

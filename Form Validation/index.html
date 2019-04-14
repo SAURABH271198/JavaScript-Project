@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="CSS/main.css">
+</head>
+<body>
+<div class="container-fluid con">
+	
+<div class="row">
+	
+<div class="col-sm-2 col-md-2"></div>
+<!-- first col-sm-2 close -->
+<div class="col-sm-8 col-md-8">
+<form>
+<h1 class="text-center display-4">Sign Up</h1>
+<p class="lead" style="color:red;" id="msg">* All Fileds are Required</p>
+<div class="row mt-2">
+	
+	<div class="col-sm-6 one col-md-6">
+		<div class="form-group">
+		<label for="fname">First Name</label>
+
+		<input type="text" name="fname" class="form-control" placeholder="Enter Your First Name" autofocus id="fname" required>
+		<p id="fname_err"></p>
+	</div>
+
+	<div class="form-group">
+		<label for="lname">Last Name</label>
+		<input type="text" name="lname" class="form-control" placeholder="Enter Your Last Name" id="lname" required>
+		<p id="lname_err"></p>
+	</div>
+
+	<div class="form-group" id='psw1'>
+		<label for="psw">Create Password</label>
+
+		<input type="password" name="psw" class="form-control" placeholder="Create 10 Digit Password" id="psw" required>
+		<p id="psw_err"></p>
+	</div>
+
+		<div class="form-group">
+		<label for="cpsw">Confirm Password</label>
+		<input type="password" name="cpsw" class="form-control" placeholder="Enter Confirm Password" id="cpsw" required >
+		<p id="cpsw_err"></p>
+	</div>
+
+
+
+<div class="form-group">
+		<label for="address">Address</label>
+
+		<textarea rows="5" class="form-control" id="add" required></textarea>
+		<p id="add_err"></p>
+	</div>
+	
+	
+
+	</div>
+	<!--first col-sm-6 inside form close -->
+
+
+
+	<div class="col-sm-6 col-md-6">
+
+
+	<div class="form-group">
+		<label for="email">Email</label>
+
+		<input type="email" name="email" class="form-control" placeholder="Enter Your Email" id="email" required>
+		<p id="email_err"></p>
+	</div>
+
+		
+
+<div class="form-group">
+		<label for="mno">Mobile Number</label>
+		<input type="text" name="mno" class="form-control" placeholder="Enter 10 Digit Mobile Number" id="mno" required>
+		<p id="mno_err"></p>
+	</div>
+
+<p>Gender</p>
+<div class="form-group">
+<div class="form-check-inline">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="gen" id="gen" value="male">Male
+  </label>
+</div>
+
+<div class="form-check-inline">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="gen" id="gen" value="Female">Female
+  </label>
+</div>
+</div>
+
+
+	<div class="form-group">
+	
+<label for="bgroup">Blood Group</label>
+<select id="bgroup" class="form-control" required>
+<option>Select</option>
+<option value="A">A</option>
+<option value="B">B</option>
+<option value="O">O</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+		<label for="pin">Pin Code</label>
+
+		<input type="text" name="pin" class="form-control" id="pin" required>
+		<p id="pin_err"></p>
+	</div>
+
+
+</div>
+	<!-- second col-sm-6 inside form close -->
+	
+</div>
+<!-- row1 close inside form-->
+
+<div class="row row2">
+	
+<div class="col-sm-3 col-md-3"></div>
+<div class="col-sm-6 col-md-6">
+	
+	
+	<button id="signup"  class="btn btn-block btn-success">Sign Up</button>
+
+</div>
+<div class="col-sm-3"></div>
+
+</div>
+<!-- row2 close inside form -->
+
+
+</form>
+<!-- form close inside col-sm-8 close -->
+</div>
+<!-- col-sm-8 close -->
+
+<div class="col-sm-2 col-md-2"></div>
+<!-- second col-sm-2 close -->
+
+</div>
+<!-- row1 insdide container close -->
+
+
+</div>
+<!-- container class close -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="JS/main.js"></script>
+</body>
+</html>
